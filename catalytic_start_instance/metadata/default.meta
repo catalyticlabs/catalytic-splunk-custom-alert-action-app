@@ -1,0 +1,10 @@
+# This file defines the default Alet Action permission & scope
+
+[alert_actions]
+export = system
+
+[alerts]
+export = system
+
+[restmap]
+export = system
