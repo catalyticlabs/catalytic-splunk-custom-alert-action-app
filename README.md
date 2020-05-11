@@ -51,7 +51,7 @@ $SPLUNK_DIR/etc/apps/catalytic_start_instance/
 
 _See official Splunk documentation here: https://docs.splunk.com/Documentation/SplunkCloud/latest/Alert/DefineRealTimeAlerts_
 
-To configure a Custom Alert Action, first create a search in Splunk; then, select *Save As*>*Alert*. Adjust the *Trigger Conditions* settings as desired. Under *Trigger Actions*, select *+Add Actions* and select `Catalytic: Start Instance` from the list. If the App is not available, you may need to restart your Splunk server. Once selected, you should see two configuration parameters: `Pushbot ID` and `Instance Name`. The former referes to the ID of Pushbot you wish to start when the alert is triggered. The latter is the Name to apply to the Instance that is started when the alert is triggered. Enter values for the parameters and click *Save*. All done!
+To configure a Custom Alert Action, first create a search in Splunk; then, select *Save As*>*Alert*. Adjust the *Trigger Conditions* settings as desired. Under *Trigger Actions*, select *+Add Actions* and select `Catalytic: Start Instance` from the list. If the App is not available, you may need to restart your Splunk server. Once selected, you should see two configuration parameters: `Workflow ID` and `Instance Name`. The former referes to the ID of Workflow you wish to start when the alert is triggered. The latter is the Name to apply to the Instance that is started when the alert is triggered. Enter values for the parameters and click *Save*. All done!
 
 
 
